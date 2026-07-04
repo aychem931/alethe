@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#pulse {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s ease-in-out;
+    transform-origin: center center;
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
